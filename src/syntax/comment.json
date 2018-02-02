@@ -1,0 +1,29 @@
+{
+  "comment_line": {
+    "prefix": "comment_line",
+    "body": [
+      "// commment_here .."
+    ],
+    "description": "单行注释"
+  },
+  "comment_multi_line": {
+    "prefix": "comment_multi_line",
+    "body": [
+      "/*",
+      " commment_here ..",
+      " commment_here ..",
+      "*/"
+    ],
+    "description": "多行注释"
+  },
+  "comment_multi_line_02": {
+    "prefix": "comment_multi_line_02",
+    "body": [
+      "/*",
+      "* commment_here ..",
+      "* commment_here ..",
+      "*/"
+    ],
+    "description": "多行注释"
+  }
+}

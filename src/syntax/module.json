@@ -1,0 +1,79 @@
+{
+  "mod_require": {
+    "prefix": "mod_require",
+    "body": [
+      "require('${1:package}')"
+    ],
+    "description": "模块导入"
+  },
+  "mod_require_to_var": {
+    "prefix": "mod_require_to_var",
+    "body": "var ${1:packageName} = require('${1:package}');$0",
+    "description": "模块导入"
+  },
+  "mod_require_to_let": {
+    "prefix": "mod_require_to_let",
+    "body": "let ${1:packageName} = require('${1:package}');$0",
+    "description": "模块导入"
+  },
+  "mod_require_to_const": {
+    "prefix": "mod_require_to_const",
+    "body": "const ${1:packageName} = require('${1:package}');$0",
+    "description": "模块导入"
+  },
+  "mod_export": {
+    "prefix": "mod_export",
+    "body": "module.exports = {\n\t$0\n};\n",
+    "description": "模块导出"
+  },
+  "mod_import_from": {
+    "prefix": "mod_import_from",
+    "body": "import ${2:moduleName} from '${1:module}';$0",
+    "description": "模块导入 import fs from 'fs'"
+  },
+  "mod_import_no_name": {
+    "prefix": "mod_import_no_name",
+    "body": "import '${1:module}';$0",
+    "description": "模块导入 import 'xx'"
+  },
+  "mod_import_from_destructing": {
+    "prefix": "mod_import_from_destructing",
+    "body": "import { $2 } from '${1:module}';$0",
+    "description": "模块导入 import {x1,x2} from 'fs'"
+  },  
+  "mod_import_from_all": {
+    "prefix": "mod_import_from_all",
+    "body": "import * as ${2:alias} from '${1:module}';$0",
+    "description": "模块导入 import * as fs from 'fs'"
+  },  
+  "mod_import_as": {
+    "prefix": "mod_import_as",
+    "body": "import { ${2:originalName} as ${3:alias} } from '${1:module}';$0",
+    "description": "模块导入 import {x as x2}  from 'fs'"
+  },
+  "mod_export_var": {
+    "prefix": "mod_export_var",
+    "body": "export const ${1:exportVariable} = ${2:localVariable};\n",
+    "description": "模块导出 export const var_name = var_value ;"
+  },
+  "mod_export_fun": {
+    "prefix": "mod_export_fun",
+    "body": "export const ${1:functionName} = (${2:params}) => {\n\t$0\n};\n",
+    "description": "模块导出 export const fun_name = ()=>{};"
+  },
+  "mod_export_fun_default": {
+    "prefix": "mod_export_fun_default",
+    "body": "export default function ${1:${TM_FILENAME_BASE}}(${2:params}) {\n\t$0\n};\n",
+    "description": "模块导出 export default function fun_name (){}"
+  },
+  "mod_export_class": {
+    "prefix": "mod_export_class",
+    "body": "export default class ${1:className} {\n\t$0\n};\n",
+    "description": "模块导出 export default class class_name {};"
+  },
+  "mod_export_class_extend": {
+    "prefix": "mod_export_class_extend",
+    "body": "export default class ${1:className} extends ${2:baseclassName} {\n\t$0\n};\n",
+    "description": "模块导出 export default class class_name extends class_name2 {}"
+  }
+}

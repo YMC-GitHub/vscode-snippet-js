@@ -1,0 +1,31 @@
+{
+  "for_multiline": {
+    "prefix": "for_multiline",
+    "body": [
+      "for condition",
+      "{",
+      "    command1",
+      "    command2",
+      "}"
+    ],
+    "description": "循环语句：for 多行写法"
+  },
+  "for_oneline": {
+    "prefix": "for_oneline",
+    "body": [
+      "for condition { command1}"
+    ],
+    "description": "循环语句：for 一行写法"
+  },
+  "for_in_multiline": {
+    "prefix": "for_in_multiline",
+    "body": [
+      "for (item in list) ",
+      "{",
+      "    command1",
+      "    command2",
+      "}"
+    ],
+    "description": "循环语句：for in 多行写法"
+  }
+}

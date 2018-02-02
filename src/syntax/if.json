@@ -1,0 +1,27 @@
+{
+  "if_multiline": {
+    "prefix": "if_multiline",
+    "body": [
+      "if condition",
+      "{",
+      "    command1",
+      "    command2",
+      "}"
+    ],
+    "description": "条件语句：if 多行写法"
+  },
+  "if_oneline": {
+    "prefix": "if_oneline",
+    "body": [
+      "if condition command1"
+    ],
+    "description": "条件语句：if 一行写法"
+  },
+  "if_oneline_02": {
+    "prefix": "if_oneline_02",
+    "body": [
+      "(condition)?command1:command2"
+    ],
+    "description": "条件语句：if 一行写法"
+  }
+}

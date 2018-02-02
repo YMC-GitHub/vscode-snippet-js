@@ -1,0 +1,25 @@
+{
+  "while_multiline": {
+    "prefix": "while_multiline",
+    "body": [
+      "while condition",
+      "{",
+      "    command1",
+      "    command2",
+      "}"
+    ],
+    "description": "循环语句：while 多行写法"
+  },
+  "do_while_multiline": {
+    "prefix": "do_while_multiline",
+    "body": [
+      "do",
+      "{",
+      "    command1",
+      "    command2",
+      "}",
+      "while condition;"
+    ],
+    "description": "循环语句：do while 多行写法"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "var_define": {
+    "prefix": "var_define",
+    "body": [
+      "var var_name"
+    ],
+    "description": "变量定义"
+  },
+  "var_define_02": {
+    "prefix": "var_define_02",
+    "body": [
+      "var var_name=value"
+    ],
+    "description": "变量定义"
+  },
+  "var_define_multi": {
+    "prefix": "var_define_multi",
+    "body": [
+      "var var_name1,var_name2"
+    ],
+    "description": "变量定义"
+  },
+  "var_define_multi_02": {
+    "prefix": "var_define_multi_02",
+    "body": [
+      "var var_name1=value1,var_name2=value2"
+    ],
+    "description": "变量定义"
+  },
+
+  "var_read": {
+    "prefix": "var_read",
+    "body": [
+      "var_name"
+    ],
+    "description": "变量读取"
+  },
+  "var_delete": {
+    "prefix": "var_delete",
+    "body": [
+      "var_name=undefined"
+    ],
+    "description": "变量删除"
+  }
+  ,
+  "var_delete_02": {
+    "prefix": "var_delete_02",
+    "body": [
+      "delete obj.key_name"
+    ],
+    "description": "变量删除:对象属性删除"
+  }
+}

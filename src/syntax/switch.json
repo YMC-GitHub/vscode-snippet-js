@@ -1,0 +1,19 @@
+{
+  "switch_multiline": {
+    "prefix": "switch_multiline",
+    "body": [
+      "switch(n)",
+      "{",
+      "  case 1:",
+      "   command1",
+      "  break;",
+      "  case 2:",
+      "   command2",
+      "  break;",
+      "  default:",
+      "   command_default",
+      "}"
+    ],
+    "description": "分支语句：switch 多行写法"
+  }
+}
