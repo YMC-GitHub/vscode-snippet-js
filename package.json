@@ -1,0 +1,69 @@
+{
+ "name": "vscode-snippet-js-yemiancheng",
+ "displayName": "javascript snippet by yemiancheng",
+ "description": "a basic javascript snippet",
+ "version": "1.0.0",
+ "categories": [
+  "Snippets"
+ ],
+ "contributes": {
+  "snippets": [
+   {
+    "language": "javascript",
+    "path": "./.vscode/javascript.code-snippets"
+   },
+   {
+    "language": "typescript",
+    "path": "./.vscode/javascript.code-snippets"
+   },
+   {
+    "language": "javascriptreact",
+    "path": "./.vscode/javascript.code-snippets"
+   },
+   {
+    "language": "typescriptreact",
+    "path": "./.vscode/javascript.code-snippets"
+   },
+   {
+    "language": "html",
+    "path": "./.vscode/javascript.code-snippets"
+   },
+   {
+    "language": "vue",
+    "path": "./.vscode/javascript.code-snippets"
+   }
+  ]
+ },
+ "main": "./.vscode/javascript.code-snippets",
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/ymc-github/vscode-snippet-js.git"
+ },
+ "author": "yemiancheng <ymc.github@gmail.com> (https://github.com/YMC-GitHub)",
+ "license": "MIT",
+ "bugs": {
+  "url": "https://github.com/ymc-github/vscode-snippet-js/issues"
+ },
+ "homepage": "https://github.com/ymc-github/vscode-snippet-js#readme",
+ "files": [
+  ".vscode/*",
+  "package.json",
+  "readme.md"
+ ],
+ "devDependencies": {
+ },
+ "scripts": {
+ },
+ "publisher": "yemiancheng",
+ "engines": {
+  "vscode": "^1.34.0"
+  },
+  "icon": "logo/logo.jpg",
+  "keywords": [
+    "javascript",
+    "snippet",
+    "vscode",
+    "vscode snippet",
+    "yemiancheng"
+  ]
+}
